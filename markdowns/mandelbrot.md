@@ -5,7 +5,7 @@ The mandelbrot set is one of the most famous fractal. It is defined by the set o
 - $`z_0 = 0`$
 - $`z_{n+1} = z_n^2 + c`$
 
-A complex number (x + iy) can be represented on a complex plane. The real part of the complex number is represented by a displacement along the x-axis and the imaginary part by a displacement along the y-axis.
+A complex number ($`x + iy`$) can be represented on a complex plane. The real part of the complex number is represented by a displacement along the x-axis and the imaginary part by a displacement along the y-axis.
 
 As a reminder, the modulus of a complex number is its distance to 0. In Python, this is obtained using `abs(z)` where `z` is a complex number. Usually, we assume that the sequence $`z_n`$ is bounded if its modulus is lower than 2.
 
