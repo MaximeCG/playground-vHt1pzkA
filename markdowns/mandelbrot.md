@@ -1,6 +1,6 @@
 # Mandelbrot Set
 
-The mandelbrot set is one of the most famous fractal. It is defined by the set of complex numbers $c$ for which the complex numbers of the sequence $z_n$ remain bounded in absolute value. The sequence $z_n$ is defined by:
+The mandelbrot set is one of the most famous fractal. It is defined by the set of complex numbers $c$ for which the complex numbers of the sequence $$z_n$$ remain bounded in absolute value. The sequence $z_n$ is defined by:
 
 - $z_0 = 0$
 - $z_{n+1} = z_n^2 + c$
