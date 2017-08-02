@@ -21,5 +21,5 @@ Let's define the function `mandelbrot` that will return the number of iterations
 
 # Plotting the mandelbrot set
 
-@[]({"stubs": ["plot.py", "mandelbrot.py"], "command": "sh -c 'python3 plot.py && TECHIO> open -s /project/target/ index.html'"})
+@[]({"stubs": ["plot.py", "mandelbrot.py"], "command": "sh -c 'python3 plot.py && echo TECHIO> open -s /project/target/ index.html'"})
 
