@@ -10,4 +10,5 @@ plan:
 projects:
   python:
     root: /python-project # Set the root path to your Python project
+    buildCommand: pip3 install Pillow
     runner: python:3
