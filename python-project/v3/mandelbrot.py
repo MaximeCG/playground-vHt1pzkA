@@ -1,4 +1,4 @@
-MAX_ITER = 100
+MAX_ITER = 50
 
 def mandelbrot(c):
     z = 0
