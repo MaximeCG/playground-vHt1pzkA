@@ -28,4 +28,4 @@ for x in range(0, WIDTH):
         # Plot the point
         draw.point([x, y], (color, color, color))
 
-im.save('../output.png', 'PNG')
+im.save('output.png', 'PNG')
