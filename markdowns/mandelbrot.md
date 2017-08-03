@@ -53,3 +53,7 @@ The `mandelbrot` function must be modified to add to the result `1 - log2(log2(a
 Finally, you can also increase the value of `MAX_ITER` to improve the rendering.
 
 @[Smooth coloring]({"stubs": ["v4/mandelbrot.py", "v4/plot.py"], "command": "sh -c 'python3 v4/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+
+## Better colors
+
+TODO: histogram
