@@ -2,14 +2,16 @@ from PIL import Image, ImageDraw
 from mandelbrot import mandelbrot, MAX_ITER
 
 # Image size (pixels)
-WIDTH = 525
-HEIGHT = 350
+WIDTH = 600
+HEIGHT = 400
 
 # Plot window
 RE_START = -2
 RE_END = 1
 IM_START = -1
 IM_END = 1
+
+palette = []
 
 im = Image.new('RGB', (WIDTH, HEIGHT), (0, 0, 0))
 draw = ImageDraw.Draw(im)
@@ -26,4 +28,4 @@ for x in range(0, WIDTH):
         # Plot the point
         draw.point([x, y], (color, color, color))
 
-im.save('output.png', 'PNG')
+im.save('../output.png', 'PNG')

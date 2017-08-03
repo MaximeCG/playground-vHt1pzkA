@@ -17,9 +17,12 @@ For more details, I recommend watching the great explanation of Dr Holly Krieger
 
 Let's define the function `mandelbrot` that will return the number of iterations needed to reach a modulus greater than 2. If the number of iterations is greater than `MAX_ITER`, stop and return `MAX_ITER`.
 
-@[]({"stubs": ["mandelbrot.py"], "command": "python3 mandelbrot.py"})
+@[]({"stubs": ["v1/mandelbrot.py"], "command": "python3 v1/mandelbrot.py"})
 
 # Plotting the mandelbrot set
 
-@[]({"stubs": ["plot.py", "mandelbrot.py"], "command": "sh -c 'python3 plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+@[]({"stubs": ["v2/plot.py", "v2/mandelbrot.py"], "command": "sh -c 'python3 plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
+@[]({"stubs": ["v3/plot.py", "v2/mandelbrot.py"], "command": "sh -c 'python3 plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+
+@[]({"stubs": ["v4/plot.py", "v2/mandelbrot.py"], "command": "sh -c 'python3 plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
