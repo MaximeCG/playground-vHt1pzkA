@@ -50,7 +50,7 @@ In order to add some colors, one could associate a color for each possible value
 
 In the previous example, you can see bands of color. To remove these bands, we can use a fractional escape count, also known as "normalized iteration count". The theory is a bit difficult, if you are interested in the mathematics, you should read this article entitled "[Renormalizing the Mandelbrot Escape](http://linas.org/art-gallery/escape/escape.html)".
 
-The `mandelbrot` function must be modified to add to the result `1 - log2(log2(abs(z)))` where `z` is the last computed value of the sequence (`abs(z) >= 2`).
+The `mandelbrot` function must be modified to add to the result `1 - log(log2(abs(z)))` where `z` is the last computed value of the sequence (`abs(z) > 2`).
 
 @[Smooth coloring]({"stubs": ["v4/mandelbrot.py", "v4/plot.py"], "command": "sh -c 'python3 v4/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
