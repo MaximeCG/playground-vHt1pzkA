@@ -57,3 +57,5 @@ Finally, you can also increase the value of `MAX_ITER` to improve the rendering.
 ## Better colors
 
 TODO: histogram
+
+@[Smooth coloring]({"stubs": ["v5/mandelbrot.py", "v5/plot.py"], "command": "sh -c 'python3 v5/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})

@@ -11,8 +11,6 @@ RE_END = 1
 IM_START = -1
 IM_END = 1
 
-palette = []
-
 im = Image.new('HSV', (WIDTH, HEIGHT), (0, 0, 0))
 draw = ImageDraw.Draw(im)
 
