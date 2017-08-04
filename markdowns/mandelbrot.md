@@ -38,11 +38,11 @@ This is called the "Escape time algorithm".
 
 @[Black and white image]({"stubs": ["v2/plot.py", "v2/mandelbrot.py"], "command": "sh -c 'python3 v2/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
-Feel free to change the plot window.
+Feel free to change the plot window by changing the variables `RE_START`, `RE_END`, `IM_START` and `IM_END`.
 
 ## Colors
 
-In order to add some colors, one could associate a color for each possible value of iterations. In the following example, we are switching from RGB colors to HSV (hue, saturation, value) colors:
+In order to add some colors, one could associate a color for each possible value of iterations. In the following example, we are switching from RGB colors to HSV (hue, saturation, value) colors. This allows us to change the color easily by modifying only the hue.
 
 @[Use of HSV colors]({"stubs": ["v3/plot.py", "v3/mandelbrot.py"], "command": "sh -c 'python3 v3/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
 
@@ -61,3 +61,5 @@ Finally, you can also increase the value of `MAX_ITER` to improve the rendering.
 In the previous codes, the colors are not equaly distributed. That's particularly true when `MAX_ITER` is high. To improve the situation, the number of pixels for each iteration number is counted up. For each iteration number, a color will be associated by giving a wider range of colors for iteration numbers that concerns more pixels.
 
 @[Smooth coloring]({"stubs": ["v5/plot.py", "v5/mandelbrot.py"], "command": "sh -c 'python3 v5/plot.py && echo \"TECHIO> open -s /project/target/ index.html\"'"})
+
+I hope you liked this playground. Please leave a comment below!
