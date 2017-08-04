@@ -11,4 +11,4 @@ def mandelbrot(c):
         z = z*z + c
         n += 1
 
-    return n + 1 - log2(log2(abs(z)))
+    return min(MAX_ITER, n + 1 - log2(log2(abs(z))))
