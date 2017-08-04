@@ -37,8 +37,6 @@ for i in range(MAX_ITER):
     h += histogram[i] / total
     hues.append(h)
 hues.append(h)
-print(hues)
-print(sum(hues))
  
 im = Image.new('HSV', (WIDTH, HEIGHT), (0, 0, 0))
 draw = ImageDraw.Draw(im)
@@ -52,8 +50,6 @@ for x in range(0, WIDTH):
         value = 255 if m < MAX_ITER else 0
         # Plot the point
         draw.point([x, y], (hue, saturation, value))
-        if x == 0 and y == 0:
-            print(m, hue)
 
 im.convert('RGB').save('output.png', 'PNG')
 
