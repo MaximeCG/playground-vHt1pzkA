@@ -17,7 +17,7 @@ A complex number ($`x + iy`$) can be represented on a complex plane. The real pa
 
 The visual representation of the mandelbrot set may be created by determining, for each point $`c`$ of a part of the complex plane, whether $`z_n`$ is bounded. The number of iterations to reach a modulus greater than 2 can be used to determine the color to use.
 
-If still unclear, I recommend watching the great explanation of [Dr Holly Krieger from MIT](https://youtu.be/NGMRB4O922I).
+If still unclear, I recommend watching the great explanation of [Dr Holly Krieger from MIT](https://goo.gl/D8Z3Mg).
 
 ## Computation of the Terms of the Sequence
 
