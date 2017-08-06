@@ -2,8 +2,10 @@ title : How to plot the Mandelbrot set
 
 # Table of content
 plan:
-  - title: Mandelbrot # Set the page title
+  - title: Mandelbrot Set # Set the page title
     statement: markdowns/mandelbrot.md # Set the file path to the page content
+  - title: "Bonus: Julia Sets"
+    statement: markdowns/julia.md
 
 
 # Settings for your programming projects and the associated Docker images
