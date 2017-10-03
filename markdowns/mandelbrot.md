@@ -1,6 +1,6 @@
 # Mandelbrot Set
 
-tes
+testt
 
 The mandelbrot set is one of the most famous fractal, and it's very easy to draw. In this playground you will learn how to plot this:
 
