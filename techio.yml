@@ -1,18 +1,15 @@
-title : How to plot the Mandelbrot set !!
-
-# Table of content
+title: How to plot the Mandelbrot set
 plan:
-  - title: Mandelbrot Set
-    statement: markdowns/mandelbrot.md
-  - title: Adding some colors
-    statement: markdowns/mandelbrot_colors.md
-  - title: "Bonus: Julia Sets"
-    statement: markdowns/julia.md
-
-
-# Settings for your programming projects and the associated Docker images
+- title: Mandelbrot Set
+  statement: markdowns/mandelbrot.md
+- title: Adding some colors
+  statement: markdowns/mandelbrot_colors.md
+- title: 'Bonus: Julia Sets'
+  statement: markdowns/julia.md
 projects:
   python:
-    root: /python-project # Set the root path to your Python project
     buildCommand: pip3 install Pillow
-    runner: python:3
+    root: /python-project
+    runner:
+      name: python
+      version: '3'
